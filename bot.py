@@ -68,7 +68,7 @@ class mendonwheels(Client):
 
 
 # Create an object of our class, enter your email and password for facebook.
-client = mendonwheels("mendonwheels@outlook.com", "fimcic-qErbik-hacgo6")
+client = mendonwheels("mendonwheels@outlook.com", "##########")
 
 # Listen for new message
 client.listen()
