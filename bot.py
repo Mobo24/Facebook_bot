@@ -6,7 +6,7 @@ class mendonwheels(Client):
 
     # Connect to dialogflow
     def apiaiCon(self):
-        self.CLIENT_ACCESS_TOKEN = "EAAEIZAkMRjiwBAPf6w9Rkb8cDqu1qf67jDLX1cWhXalbtIAfORZAGq3FhcPHYBu1ZAZAglBHDa4AHJRezMdoZCZC9LuKDdgrRFZChxDO6Roys4TJA3TXErzDsgP4q9B8Sn0DWp3QwHdey65mTvZCZC4ScT8IddG6ci4hOyigL5GiGHJPwdWHARywF"
+        self.CLIENT_ACCESS_TOKEN = "#####################################################"
         self.ai = apiai.ApiAI(self.CLIENT_ACCESS_TOKEN)
         self.request = self.ai.text_request()
         self.request.lang = 'de' #Default : English
